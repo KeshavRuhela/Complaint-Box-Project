@@ -1,0 +1,70 @@
+#allRecord{
+    margin-left:10px ;
+    position: fixed;
+    bottom: 90px;
+    justify-content: center;
+    background-color: #4343ce;
+    padding: 5px;
+    display: table-row-group;   
+    border-radius: 15px; 
+    display: none;
+}
+.option{
+    margin-top: 20px;
+    // background-color: black;
+}
+#cameraIcon{
+    font-size: 40px;
+    text-align: left;
+    // background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+}
+.video {
+    width: 100%;
+    height: 400px;
+  }
+#video{
+    font-size: 40px;
+    // background-color: black;
+    color: white;
+    padding: 10px;
+    justify-content: right;
+    border-radius: 50px;
+}
+#voiceRecord{
+    font-size: 40px;
+    // position: fixed;
+    // right: 20px;
+    // background-color: black;
+    color: white;
+    padding: 10px;
+}
+#more{
+    height: 50px;
+    z-index: 5;
+}
+#dotted{
+    background-color: black;
+    font-size: 50px;
+    color: aliceblue;
+    border-radius: 15px;
+    padding: 8px;
+    position: fixed;
+    bottom: 10px;
+    margin: 12px;
+}
+hr{
+    // height: 5px;
+    // color: red;
+    height: 3px;
+    background-color: rgb(255, 0, 0);
+}
+h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+img{
+    margin: 5px;
+}

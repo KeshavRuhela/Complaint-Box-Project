@@ -1,0 +1,54 @@
+<ion-content fullscreen="true">
+  <h2 align="center">Upload your complaints</h2>
+  <hr>
+  <!-- ............image upload tag............ -->
+  <div style="border: 2px dotted gray; margin: 20px;" id="main" (click)="takePicture()">
+    <ion-img
+      src="data:image/png;base64,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"
+      style="margin: 5px auto; height:150px; width:80%; opacity: 0.8;"></ion-img>
+  </div>
+  <div style="display: flex; flex-wrap: wrap; width: 70%; justify-content: center; margin: 2px auto;">
+    <div><img [src]="photo" height="200px" width="180px" id="image" style="border: 2px solid black; display: none;">
+    </div>
+    <div><img src="https://toppng.com/uploads/preview/add-camera-icon-icon-add-11553485583calilemiyg.png"
+        (click)="takePicture2()" alt="Add More" height="50px" width="50px" id="image2"
+        style="border: 2px black; display: none; "></div>
+    <div><img [src]="photo2" (click)="takePicture2()" alt="Add More" height="200px" width="180px" id="image3"
+        style="border: 2px dotted black; display: none; "></div>
+  </div>
+  <hr style="background-color: gray;">
+
+
+  <!-- ............Upload & Captured Video............ -->
+
+  <video class="video" #video autoplay playsinline muted [hidden]="!isRecording"></video>
+  <div id="fullscreen" slot="fixed"></div>
+
+  <ion-list *ngIf="!isRecording">
+    <ion-item *ngFor="let video of videos;" (click)="play(video)" tappable>
+      {{ video }}
+    </ion-item>
+  </ion-list>
+
+  <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+    <ion-fab-button (click)="isRecording ? stopRecord() : recordVideo()" >
+      <ion-icon [name]="isRecording ? 'stop' : 'videocam'" ></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <!-- ............more option............ -->
+       <div id="allRecord">
+    <div class="option">
+      <ion-icon [name]="isRecording ? 'stop' : 'videocam'" (click)="isRecording ? stopRecord() : recordVideo()" id="video"></ion-icon>
+    </div>
+    <div class="option">
+      <ion-icon name="camera" id="cameraIcon" (click)="takePicture()"></ion-icon>
+    </div>
+    <div class="option">
+      <ion-icon name="recording" id="voiceRecord"></ion-icon>
+    </div>
+  </div>
+  <div style="background-color: aqua;">
+    <ion-icon name="ellipsis-horizontal-outline" id="dotted" (click)="show()"></ion-icon>
+  </div>
+</ion-content>

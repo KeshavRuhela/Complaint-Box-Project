@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ComplainBox</string>
+    <string name="title_activity_main">ComplainBox</string>
+    <string name="package_name">com.complainBox.app</string>
+    <string name="custom_url_scheme">com.complainBox.app</string>
+</resources>

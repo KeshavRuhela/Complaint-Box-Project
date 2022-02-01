@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title style="background-color: tomato; height: 100%; padding: 20PX;" >
+      Function of this app
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div style=" background-color: rgb(90, 245, 129); height: 1000px;">
+  <div style="margin-top: -25px; "> <h2 style="text-align: center; padding-top: 20px; font-weight: 700;"> About</h2></div>
+  
+  <div>
+  
+  <ion-icon name="person-add-outline" id="cameraIcon" (click)="login()"></ion-icon>
+  <label (click)="login()" class="label">Add Account</label>
+</div>
+  </div>
+</ion-content>

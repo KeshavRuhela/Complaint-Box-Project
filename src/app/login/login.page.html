@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title id="login-title">login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen="true">
+  <div>
+    <form (ngSubmit)="loginPass()" [formGroup]="loginForm">
+      <input type="text" name="userName" formControlName="userName" placeholder="Enter User Name" id="">
+      <input type="text" name="mobile" formControlName="mobile" placeholder="Enter Mobile Name" id="">
+      <input type="submit" id="login-signUp" value="Login/signUp">
+    </form>
+  </div>
+</ion-content>

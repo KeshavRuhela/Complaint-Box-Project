@@ -1,0 +1,6 @@
+{
+	"appId": "com.complainBox.app",
+	"appName": "ComplainBox",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
